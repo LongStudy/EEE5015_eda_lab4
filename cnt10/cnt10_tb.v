@@ -34,7 +34,7 @@ module cnt10_tb;
           load = 1;
           #200 
           load = 0;
-          #10
+          #20
           load = 1;
      end
 
