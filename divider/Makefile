@@ -1,12 +1,11 @@
-	# Makefile for simulate the param_adder.v
 
 # random seed generation
 SEED = $(shell date +%s)
 
 # variable definition
-DUT = ./param_adder.v 
-#TB  =./adder32_tb.v ./timescale.v
-TB  = ./param_adder_tb_random.v ./timescale.v
+DUT = ./divifer.v 
+
+TB  = ./divider_tb.v ./timescale.v
 
 # target : dependency
 run: compile simulate
