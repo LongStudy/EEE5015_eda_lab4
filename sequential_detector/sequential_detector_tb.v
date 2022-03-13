@@ -23,6 +23,8 @@ module sequential_detector_tb;
         reset = 0;
         #10 
         reset = 1;
+        #20
+        reset = 0;
     end
 
 
@@ -31,7 +33,7 @@ module sequential_detector_tb;
     end
 
     always@(negedge clk) begin
-    #5 data = {data[22 : 0], data[23]};
+        #5 data = {data[22 : 0], data[23]};
     end
     
     assign d = data[23]; 
