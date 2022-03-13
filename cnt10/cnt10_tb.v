@@ -32,7 +32,7 @@ module cnt10_tb;
 
      initial begin
           load = 1;
-          #20 
+          #100 
           load = 0;
      end
 
