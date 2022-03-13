@@ -31,9 +31,9 @@ module cnt10_tb;
      end
 
      initial begin
-          load = 0;
-          #20 
           load = 1;
+          #20 
+          load = 0;
      end
 
      integer seed;
