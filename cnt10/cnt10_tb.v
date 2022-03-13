@@ -49,7 +49,8 @@ module cnt10_tb;
   always @(negedge clk) begin
     if (~rst) begin
           data = 0
-    end else begin
+    end
+    else begin
       data = $random(seed); 
     end
   end
