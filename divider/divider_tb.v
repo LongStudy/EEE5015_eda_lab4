@@ -26,7 +26,7 @@ module divider_tb;
 
   // watch dog
   initial begin
-    #4000 $finish;
+    #10000 $finish;
   end
 
 
