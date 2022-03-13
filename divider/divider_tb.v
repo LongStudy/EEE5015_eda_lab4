@@ -10,10 +10,10 @@ module divider_tb;
 
 
      initial begin
-          clk = 0;
-          forever begin
-               #(CLK_PERIOD/2) clk = ~clk;
-          end
+        clk = 0;
+        forever begin
+              #(CLK_PERIOD/2) clk = ~clk;
+        end
      end
 
 

@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 module divider(reset,clk,clk_out);
     input clk,reset;
