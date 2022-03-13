@@ -3,7 +3,7 @@
 SEED = $(shell date +%s)
 
 # variable definition
-DUT = ./divifer.v 
+DUT = ./divider.v 
 
 TB  = ./divider_tb.v ./timescale.v
 
