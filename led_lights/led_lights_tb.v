@@ -26,7 +26,7 @@ module led_lights_tb;
 
   // watch dog
   initial begin
-    #500 $finish;
+    #2000 $finish;
   end
 
 
