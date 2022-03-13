@@ -56,7 +56,7 @@ module cnt10_tb;
 
   // watch dog
   initial begin
-    #200 $finish;
+    #400 $finish;
   end
 
 
