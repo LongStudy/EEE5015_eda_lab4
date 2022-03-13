@@ -22,6 +22,10 @@ module divider_tb;
           #10 
           reset = 1;
      end
+  
+  always @(posedge clk) begin
+
+  end
 
   // watch dog
   initial begin
