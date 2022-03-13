@@ -18,8 +18,10 @@ module divider_tb;
 
 
      initial begin
+          reset = 1;
+          #20
           reset = 0;
-          #10 
+          #40 
           reset = 1;
      end
   
