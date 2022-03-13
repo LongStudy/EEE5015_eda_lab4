@@ -7,7 +7,7 @@ module led_lights_tb;
 
   led_lights u_led_lights(clk,rst_n,led);
 
-  parameter CLK_PERIOD = 20;
+  parameter CLK_PERIOD = 10;
 
 
      initial begin
@@ -26,7 +26,7 @@ module led_lights_tb;
 
   // watch dog
   initial begin
-    #400 $finish;
+    #500 $finish;
   end
 
 
