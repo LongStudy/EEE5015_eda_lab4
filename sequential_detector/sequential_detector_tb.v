@@ -1,7 +1,7 @@
 
 module sequential_detector_tb;
-	reg clk, reset, d;
-	wire y;
+	reg clk, reset;
+	wire y,d;
 
     reg [23 : 0] data;
 
