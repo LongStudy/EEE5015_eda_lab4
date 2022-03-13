@@ -6,7 +6,7 @@ module divider_tb;
 
   divider u_divider(reset,clk,clk_out);
 
-  parameter CLK_PERIOD = 20;
+  parameter CLK_PERIOD = 2;
 
 
      initial begin
@@ -18,8 +18,6 @@ module divider_tb;
 
 
      initial begin
-          reset = 1;
-          #20
           reset = 0;
           #40 
           reset = 1;
@@ -28,7 +26,7 @@ module divider_tb;
 
   // watch dog
   initial begin
-    #800 $finish;
+    #4000 $finish;
   end
 
 
