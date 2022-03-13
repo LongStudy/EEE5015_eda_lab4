@@ -27,7 +27,7 @@ module sequential_detector_tb;
 
 
     initial begin
-    	data = 24'b0011_1100_1001_0000_1001_0100;
+    	data = 24'b0000_0000_1001_0000_1001_0100;
     end
 
     always@(negedge clk) begin
