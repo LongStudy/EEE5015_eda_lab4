@@ -1,4 +1,4 @@
-# lab4_logic_simulation2
+# lab4_logic_simulation
 
 ```bash
 git clone https://github.com/LongStudy/eda_lab4.git
