@@ -1,7 +1,7 @@
 # lab4_logic_simulation
 
 ```bash
-git clone https://github.com/LongStudy/eda_lab4.git
+git clone https://github.com/LongStudy/EEE5015_eda_lab4.git
 
 cd cnt10
 
